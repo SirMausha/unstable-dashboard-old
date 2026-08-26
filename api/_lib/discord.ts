@@ -96,7 +96,7 @@ function buildEmbed(input: ApplyNotifyInput, chartUrl: string | null) {
     color: 0xe57a9b,
     fields,
     image: chartUrl ? { url: chartUrl } : undefined,
-    footer: { text: 'Dust Bunny Dashboard · pending review' },
+    footer: { text: 'Unstable Dashboard · pending review' },
     timestamp: new Date().toISOString(),
     url: `https://uma.moe/profile/${encodeURIComponent(input.umaId)}`,
   }

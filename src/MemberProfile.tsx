@@ -48,9 +48,9 @@ export function MemberProfileModal({
         <>
           <p className={`plan-status ${profile.status === 'current' ? 'plan-move' : 'plan-kick'}`}>
             {profile.status === 'current'
-              ? `Current · ${profile.currentClubName || 'Bunny network'}`
+              ? `Current · ${profile.currentClubName || 'Unstable network'}`
               : profile.status === 'former'
-                ? `Former · last ${profile.lastClubName || 'Bunny club'}`
+                ? `Former · last ${profile.lastClubName || 'Unstable club'}`
                 : 'Not in saved club history yet'}
           </p>
           <dl className="apply-club-meta mini-profile-meta">
