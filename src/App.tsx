@@ -327,7 +327,7 @@ function MemberTable({
       todayGain: 0,
       dailyGains: [],
       band: 'inactive' as Band,
-      reason: 'Former Bunny club member',
+      reason: 'Former Unstable club member',
       discordId: row.discordId,
       former: true,
       observedDays: row.observedDays,
@@ -566,7 +566,7 @@ function ApplyBody({ clubs }: { clubs: Array<Club & { members?: Member[] }> }) {
   return <section className="apply-page">
     <header className="apply-intro">
       <p className="eyebrow">Recruitment</p>
-      <h2>Apply to a Bunny club</h2>
+      <h2>Apply to an Unstable club</h2>
       <p className="muted">Pick a club on the left, then send your Uma ID and Discord username. Managers review applications privately.</p>
     </header>
 
@@ -649,8 +649,8 @@ function PublicSite({ path, navigate }: { path: string; navigate: (to: string) =
     return () => { cancelled = true }
   }, [])
 
-  if (error) return <main className="center-message"><h1>Bunny clubs</h1><p>{error}</p></main>
-  if (!data) return <main className="center-message"><h1>Bunny clubs</h1><p>Gathering the latest club vibes…</p></main>
+  if (error) return <main className="center-message"><h1>Unstable</h1><p>{error}</p></main>
+  if (!data) return <main className="center-message"><h1>Unstable</h1><p>Gathering the latest club vibes…</p></main>
 
   return <main className="shell">
     <Header publicMode>
@@ -1493,7 +1493,7 @@ function ClubSettings({ state, reload }: { state: DashboardState; reload: () => 
       </div>
       <label>Inactive after days<input name="inactiveDays" type="number" min="1" defaultValue={editing?.inactiveDays || 3} /></label>
       <label className="check"><input name="promotionEnabled" type="checkbox" defaultChecked={editing?.promotionEnabled ?? true} /> Enable promotion-candidate assessments for this club</label>
-      <p className="muted">Turn this off for your main club (for example Dust Bunny) where members cannot be promoted further.</p>
+      <p className="muted">Turn this off for your main club (for example Unstable) where members cannot be promoted further.</p>
       <div className="button-row"><button className="primary">{editing ? 'Save club' : 'Add club'}</button>{editing && <button type="button" onClick={() => setEditing(null)}>Cancel</button>}</div>
     </form>
     <section className="panel"><div className="section-heading"><div><p className="eyebrow">Requirements</p><h2>Registered clubs</h2></div></div>
@@ -1605,10 +1605,10 @@ function ApplicantManager({ state, reload }: { state: DashboardState; reload: ()
 function originTone(sourceId: string, clubName?: string | null) {
   if (sourceId === 'applicants' || sourceId === 'unassigned') return 'origin-applicant'
   const name = (clubName || '').toLowerCase()
-  if (name.includes('dust')) return 'origin-dust'
-  if (name.includes('dirt')) return 'origin-dirt'
-  if (name.includes('damp')) return 'origin-damp'
-  if (name.includes('dusk')) return 'origin-dusk'
+  if (name.includes('unstble') || name.includes('unstable')) return 'origin-unstable'
+  if (name.includes('cap')) return 'origin-cap'
+  if (name.includes('umadacchi')) return 'origin-umadacchi'
+  if (name.includes('unladen')) return 'origin-unladen'
   return 'origin-other'
 }
 
