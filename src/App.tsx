@@ -1630,7 +1630,7 @@ function PlannerCardFace({
   kind: 'member' | 'applicant'
 }) {
   const tag = moved && fromLabel
-    ? <em className={`move-tag ${originClass || ''}`}>{fromLabel.replace(/ Bunny$/i, '')}</em>
+    ? <em className={`move-tag ${originClass || ''}`}>{fromLabel}</em>
     : kind === 'applicant' && !moved
       ? <em className="move-tag origin-applicant">applicant</em>
       : null
