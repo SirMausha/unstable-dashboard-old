@@ -663,7 +663,7 @@ function PublicSite({ path, navigate }: { path: string; navigate: (to: string) =
     </Header>
     {!pagesOnly && <SiteNav path={isApply ? '/apply' : '/'} navigate={navigate} />}
     {isApply ? <ApplyBody clubs={data.clubs} /> : <OverviewBody data={data} />}
-    <footer>Source: uma.moe · Courtesy of justwastingtime@discord · Updated {new Date(data.generatedAt).toLocaleString()}</footer>
+    <footer>Source: uma.moe · Updated {new Date(data.generatedAt).toLocaleString()}<br/><h1>Courtesy of justwastingtime@discord</h1></footer>
   </main>
 }
 
