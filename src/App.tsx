@@ -129,10 +129,10 @@ function BandBadge({ band, reason, compact = false }: { band?: Band | null; reas
 function Header({ children, publicMode = false }: { children?: ReactNode; publicMode?: boolean }) {
   return <header className="site-header">
     <div>
-      <p className="eyebrow">{publicMode ? 'Dust · Dirt · Damp' : 'Local management workspace'}</p>
-      <h1>{publicMode ? 'Bunny clubs' : 'Club operations'}</h1>
+      <p className="eyebrow">{publicMode ? 'Unstable · Clubs' : 'Local management workspace'}</p>
+      <h1>{publicMode ? 'Unstable clubs' : 'Club operations'}</h1>
       {publicMode ? (
-        <p className="lede">A cozy look at how our clubs are doing — ranks, fans, and who’s applying next.</p>
+        <p className="lede">Overview of club ranks, fans and pending applications.</p>
       ) : null}
     </div>
     {children}
