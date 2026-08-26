@@ -28,7 +28,7 @@ export default async function handler(request: VercelRequest, response: VercelRe
 
     const blocked = await findBlacklistMatch(input.umaId, input.discordUsername)
     if (blocked) {
-      return response.status(403).json({ error: 'This trainer cannot apply to Bunny clubs.' })
+      return response.status(403).json({ error: 'This trainer cannot apply to Unstable clubs.' })
     }
 
     const profile = await resolveUmaProfile(input.umaId)
