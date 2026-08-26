@@ -650,7 +650,7 @@ function PublicSite({ path, navigate }: { path: string; navigate: (to: string) =
   }, [])
 
   if (error) return <main className="center-message"><h1>Unstable</h1><p>{error}</p></main>
-  if (!data) return <main className="center-message"><h1>Unstable</h1><p>Gathering the latest club vibes…</p></main>
+  if (!data) return <main className="center-message"><h1>Unstable</h1><p>Gathering the latest club vibes…<br/><small>Courtesy of justwastingtime@discord</small></p></main>
 
   return <main className="shell">
     <Header publicMode>
@@ -663,7 +663,7 @@ function PublicSite({ path, navigate }: { path: string; navigate: (to: string) =
     </Header>
     {!pagesOnly && <SiteNav path={isApply ? '/apply' : '/'} navigate={navigate} />}
     {isApply ? <ApplyBody clubs={data.clubs} /> : <OverviewBody data={data} />}
-    <footer>Source: uma.moe · Updated {new Date(data.generatedAt).toLocaleString()}</footer>
+    <footer>Source: uma.moe · Courtesy of justwastingtime@discord · Updated {new Date(data.generatedAt).toLocaleString()}</footer>
   </main>
 }
 
