@@ -380,16 +380,16 @@ dt { color: var(--muted); font-size: .68rem; }dd { margin: 3px 0 0; font-weight:
 }
 .id-copy { display: block; margin-top: 2px; border: 0; padding: 0; background: transparent; color: var(--muted); font: inherit; font-size: .62rem; font-family: ui-monospace, Consolas, monospace; text-align: left; cursor: copy; }
 .id-copy:hover { color: var(--accent-dark); text-decoration: underline; }
-.origin-dust, .move-tag.origin-dust { background: #e8e2d4; color: #5c5346; }
-.origin-dirt, .move-tag.origin-dirt { background: #e7d3bf; color: #6b4524; }
-.origin-damp, .move-tag.origin-damp { background: #d5e4ef; color: #2f5570; }
-.origin-dusk, .move-tag.origin-dusk { background: #e4d7ef; color: #5a3d72; }
+.origin-unstable, .move-tag.origin-unstable { background: #e8e2d4; color: #5c5346; }
+.origin-cap, .move-tag.origin-cap { background: #e7d3bf; color: #6b4524; }
+.origin-umadacchi, .move-tag.origin-umadacchi { background: #d5e4ef; color: #2f5570; }
+.origin-unladen, .move-tag.origin-unladen { background: #e4d7ef; color: #5a3d72; }
 .origin-applicant, .move-tag.origin-applicant { background: #ffe0ea; color: #c45d7a; }
 .origin-other, .move-tag.origin-other { background: #f3dfc4; color: #8a4b16; }
-.drag-card.moved.origin-dust { border-color: #b5a78d; border-left-color: #8a7a5f; background: #f7f3ea; }
-.drag-card.moved.origin-dirt { border-color: #c9a07a; border-left-color: #8d5a2b; background: #f8efe6; }
-.drag-card.moved.origin-damp { border-color: #8fb0c7; border-left-color: #3f6d8c; background: #eef5fa; }
-.drag-card.moved.origin-dusk { border-color: #b89bcb; border-left-color: #6b4688; background: #f4eef8; }
+.drag-card.moved.origin-unstable { border-color: #b5a78d; border-left-color: #8a7a5f; background: #f7f3ea; }
+.drag-card.moved.origin-cap { border-color: #c9a07a; border-left-color: #8d5a2b; background: #f8efe6; }
+.drag-card.moved.origin-umadacchi { border-color: #8fb0c7; border-left-color: #3f6d8c; background: #eef5fa; }
+.drag-card.moved.origin-unladen { border-color: #b89bcb; border-left-color: #6b4688; background: #f4eef8; }
 .drag-card.moved.origin-applicant { border-color: #f0b8cb; border-left-color: #c45d7a; background: #fff0f5; }
 .drag-card.applicant:not(.moved) { border-style: dashed; }
 .publish-panel { min-height: 70vh; }.json-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 20px; }
