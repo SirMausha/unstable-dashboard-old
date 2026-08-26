@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
   const repository = String(process.env.GITHUB_REPOSITORY || env.GITHUB_REPOSITORY || '')
     .split('/')
     .pop()
-  const pagesBase = repository ? `/${repository}/` : '/DustBunnyDashboard/'
+  const pagesBase = repository ? `/${repository}/` : '/unstable-dashboard/'
 
   return {
     base: mode === 'public' ? pagesBase : '/',
