@@ -1,0 +1,60 @@
+:root {
+  font-family: "Nunito", ui-rounded, "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: var(--page);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --ink: #3a2a32;
+  --muted: #8a6f7a;
+  --page: #fff1f5;
+  --surface: #fffafb;
+  --surface-2: #ffe8ef;
+  --line: #f0d4de;
+  --accent: #e57a9b;
+  --accent-dark: #c45d7a;
+  --accent-soft: #ffe0ea;
+  --muted-chart: #d4a0b2;
+  --danger: #d46464;
+  --warning: #d49a4a;
+  --gain: #6eb6e8;
+  --club-card: #3a2a32;
+  --club-card-2: #4a3540;
+  --club-text: #fff7fa;
+  --club-muted: #d4b8c4;
+  --club-accent: #ffb4c8;
+  --display: "Fraunces", Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+html {
+  min-width: 320px;
+  background:
+    radial-gradient(900px 420px at 6% -8%, rgba(255, 170, 198, 0.45), transparent 58%),
+    radial-gradient(780px 380px at 96% 2%, rgba(170, 210, 255, 0.38), transparent 55%),
+    radial-gradient(720px 480px at 48% 108%, rgba(255, 210, 170, 0.32), transparent 52%),
+    var(--page);
+  background-attachment: fixed;
+}
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+a { color: var(--accent-dark); }
+h1, h2, h3, p { margin-top: 0; }
+h1 {
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: clamp(2.2rem, 5.5vw, 3.6rem);
+  letter-spacing: -.04em;
+  line-height: .96;
+  margin-bottom: 0;
+  font-weight: 750;
+}
+h2 {
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 1.4rem;
+  letter-spacing: -.02em;
+  margin-bottom: .35rem;
+  font-weight: 650;
+}
+h3 { color: var(--ink); font-family: var(--display); font-weight: 650; }

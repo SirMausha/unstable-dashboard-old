@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "clubs": [
+    {
+      "circleId": "883948934",
+      "name": "Dust Bunny",
+      "dailyTarget": 4500000,
+      "promotionRatio": 1.25,
+      "severeRatio": 0.5,
+      "inactiveDays": 3,
+      "promotionEnabled": false
+    },
+    {
+      "circleId": "419653159",
+      "name": "Dirt Bunny",
+      "dailyTarget": 4000000,
+      "promotionRatio": 1.25,
+      "severeRatio": 0.5,
+      "inactiveDays": 3,
+      "promotionEnabled": true
+    },
+    {
+      "circleId": "751441556",
+      "name": "Damp Bunny",
+      "dailyTarget": 2000000,
+      "promotionRatio": 1.25,
+      "severeRatio": 0.5,
+      "inactiveDays": 3,
+      "promotionEnabled": true
+    },
+    {
+      "circleId": "469097343",
+      "name": "Dusk Bunny",
+      "dailyTarget": 2000000,
+      "promotionRatio": 1.25,
+      "severeRatio": 0.5,
+      "inactiveDays": 3,
+      "promotionEnabled": true
+    }
+  ],
+  "applicants": [
+    {
+      "umaId": "400726101066",
+      "ign": "Dariz",
+      "targetClubId": "751441556",
+      "status": "approved",
+      "publishPublicly": true
+    },
+    {
+      "umaId": "251230953860",
+      "ign": "ZakkuRe",
+      "targetClubId": "751441556",
+      "status": "rejected",
+      "publishPublicly": true
+    },
+    {
+      "umaId": "554345132366",
+      "ign": "SantaBear",
+      "targetClubId": "419653159",
+      "status": "approved",
+      "publishPublicly": true
+    },
+    {
+      "umaId": "272706950227",
+      "ign": "Kiwi",
+      "targetClubId": "419653159",
+      "status": "approved",
+      "publishPublicly": true
+    },
+    {
+      "umaId": "260206554236",
+      "ign": "Lunayon",
+      "targetClubId": "751441556",
+      "status": "approved",
+      "publishPublicly": true
+    },
+    {
+      "umaId": "594860722805",
+      "ign": "Roro",
+      "targetClubId": "751441556",
+      "status": "approved",
+      "publishPublicly": true
+    },
+    {
+      "umaId": "609247714909",
+      "ign": "korri",
+      "targetClubId": "751441556",
+      "status": "approved",
+      "publishPublicly": true
+    },
+    {
+      "umaId": "771452902031",
+      "ign": "Chocomoto",
+      "targetClubId": "883948934",
+      "status": "approved",
+      "publishPublicly": true
+    },
+    {
+      "umaId": "290165408889",
+      "ign": "Evon",
+      "targetClubId": "883948934",
+      "status": "approved",
+      "publishPublicly": true
+    },
+    {
+      "umaId": "380843067098",
+      "ign": "Fatez",
+      "targetClubId": "883948934",
+      "status": "approved",
+      "publishPublicly": true
+    },
+    {
+      "umaId": "356323038615",
+      "ign": "Edd",
+      "targetClubId": "751441556",
+      "status": "pending",
+      "publishPublicly": true
+    },
+    {
+      "umaId": "708110063580",
+      "ign": "ZZero",
+      "targetClubId": "419653159",
+      "status": "pending",
+      "publishPublicly": true
+    },
+    {
+      "umaId": "605941613933",
+      "ign": "Nectawar",
+      "targetClubId": "751441556",
+      "status": "approved",
+      "publishPublicly": true
+    }
+  ]
+}

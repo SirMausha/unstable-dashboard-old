@@ -1,0 +1,40 @@
+{
+  "clubs": [
+    {
+      "circleId": "883948934",
+      "name": "Dust Bunny",
+      "dailyTarget": 4500000,
+      "promotionRatio": 1.25,
+      "severeRatio": 0.5,
+      "inactiveDays": 3,
+      "promotionEnabled": false
+    },
+    {
+      "circleId": "419653159",
+      "name": "Dirt Bunny",
+      "dailyTarget": 4000000,
+      "promotionRatio": 1.25,
+      "severeRatio": 0.5,
+      "inactiveDays": 3,
+      "promotionEnabled": true
+    },
+    {
+      "circleId": "751441556",
+      "name": "Damp Bunny",
+      "dailyTarget": 2000000,
+      "promotionRatio": 1.25,
+      "severeRatio": 0.5,
+      "inactiveDays": 3,
+      "promotionEnabled": true
+    },
+    {
+      "circleId": "469097343",
+      "name": "Dusk Bunny",
+      "dailyTarget": 2000000,
+      "promotionRatio": 1.25,
+      "severeRatio": 0.5,
+      "inactiveDays": 3,
+      "promotionEnabled": true
+    }
+  ]
+}
