@@ -21,7 +21,7 @@ export type SessionUser = {
   isManager: boolean
 }
 
-const SESSION_COOKIE = 'dustbunny_session'
+const SESSION_COOKIE = 'unstable_session'
 
 function requireEnv(name: string) {
   const value = String(process.env[name] || '').trim()
