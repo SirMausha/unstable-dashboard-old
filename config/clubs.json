@@ -1,40 +1,40 @@
 {
   "clubs": [
     {
-      "circleId": "883948934",
-      "name": "Dust Bunny",
-      "dailyTarget": 4500000,
+      "circleId": "883951941",
+      "name": "UnStble",
+      "dailyTarget": 7000000,
       "promotionRatio": 1.25,
       "severeRatio": 0.5,
       "inactiveDays": 3,
       "promotionEnabled": false
     },
     {
-      "circleId": "419653159",
-      "name": "Dirt Bunny",
-      "dailyTarget": 4000000,
-      "promotionRatio": 1.25,
-      "severeRatio": 0.5,
-      "inactiveDays": 3,
-      "promotionEnabled": true
-    },
-    {
-      "circleId": "751441556",
-      "name": "Damp Bunny",
+      "circleId": "339045614",
+      "name": "Cap",
       "dailyTarget": 2000000,
       "promotionRatio": 1.25,
       "severeRatio": 0.5,
       "inactiveDays": 3,
-      "promotionEnabled": true
+      "promotionEnabled": false
     },
     {
-      "circleId": "469097343",
-      "name": "Dusk Bunny",
-      "dailyTarget": 2000000,
+      "circleId": "321778725",
+      "name": "Umadacchi",
+      "dailyTarget": 400000,
       "promotionRatio": 1.25,
       "severeRatio": 0.5,
       "inactiveDays": 3,
-      "promotionEnabled": true
+      "promotionEnabled": false
+    },
+    {
+      "circleId": "763644512",
+      "name": "Unladen",
+      "dailyTarget": 500000,
+      "promotionRatio": 1.25,
+      "severeRatio": 0.5,
+      "inactiveDays": 3,
+      "promotionEnabled": false
     }
   ]
 }
